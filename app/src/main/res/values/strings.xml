@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Image-Stegnography</string>
+    <string name="save_message">Save Message</string>
+    <string name="capture_photo">Capture Photo</string>
+    <string name="select_image">Select Image</string>
+    <string name="perform_action">Perform Action</string>
+    <string name="enter_text_here">Enter the sentence</string>
+    <string name="enter_sentence">Enter sentence</string>
+    <string name="confirm">Confirm</string>
+    <string name="image_steganography">Image Stegnography</string>
+    <string name="Selected_Image">selected image is displayed</string>
+    <string name="image_stegnography">Image Stegnography</string>
+    <string name="steganography_is_the_practice_of_concealing_a_file_message_image_or_video_within_another_file_message_image_or_video">Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video.</string>
+    <string name="encode">Encode</string>
+    <string name="decode">Decode</string>
+</resources>

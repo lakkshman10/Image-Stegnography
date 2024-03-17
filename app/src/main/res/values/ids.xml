@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- IDs for Views -->
+    <item name="btnSelectImage" type="id" />
+    <item name="tvInstructions" type="id" />
+    <item name="etInputText" type="id" />
+    <item name="btnConfirm" type="id" />
+    <item name="btnCapturePhoto" type="id" />
+    <item name="btnSaveMessage" type="id" />
+    <item name="ivResult" type="id" />
+</resources>

@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EncodePage">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/image_steganography"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivResult"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/placeholder_image"
+        android:layout_below="@id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/Selected_Image" />
+
+
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/select_image"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/tvInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSelectImage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/enter_sentence"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etInputText"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/tvInstructions"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/edit_text_border"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        android:layout_below="@id/etInputText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnSaveMessage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/save_message"
+        android:layout_below="@id/btnConfirm"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
